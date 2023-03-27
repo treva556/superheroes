@@ -5,20 +5,21 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+puts "initiated seed"
 # Create some powers
-super_strength = Power.create(name: "Super Strength", description: "The ability to lift and move objects beyond human capability.")
-flight = Power.create(name: "Flight", description: "The power to propel oneself through the air.")
+flight= Power.create(name: "Flight", description: "Can Fly very high even when lifting objects")
+good_combat = Power.create(name: "Good Combat", description: "Very Good Fighting Skills")
 energy_blasts = Power.create(name: "Energy Blasts", description: "The ability to generate and emit powerful energy blasts.")
 telekinesis = Power.create(name: "Telekinesis", description: "The power to move objects with the mind.")
-invisibility = Power.create(name: "Invisibility", description: "The ability to become invisible to the naked eye.")
+shapeshifter = Power.create(name: "Shape Shifter", description: "Can change to someone else for caumoflage")
 
 
 # Create some heroes
-hulk = Hero.create(name: "Hulk", super_name: "The Incredible Hulk")
-thor = Hero.create(name: "Thor", super_name: "The God of Thunder")
-iron_man = Hero.create(name: "Iron Man", super_name: "The Armored Avenger")
-captain_america = Hero.create(name: "Captain America", super_name: "The First Avenger")
-black_widow = Hero.create(name: "Black Widow", super_name: "The Russian Spy")
+superman = Hero.create(name: "Super Man", super_name: "Man of Steel")
+batman = Hero.create(name: "Bat Man", super_name: "I am Justice")
+beast_boy = Hero.create(name: "Beast Boy", super_name: "Teen Titan")
+homelander = Hero.create(name: "Homelander", super_name: "The Peoples Hero")
+black_panther = Hero.create(name: "Black Panther", super_name: "Wakanda Forever")
 
 
 
@@ -29,3 +30,5 @@ black_widow = Hero.create(name: "Black Widow", super_name: "The Russian Spy")
        power_id: rand(1..5)
     )
 end
+
+puts "seeding done"
