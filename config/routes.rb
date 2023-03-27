@@ -9,3 +9,4 @@ Rails.application.routes.draw do
   get '/hero_powers', to: 'hero_powers#index'
   post '/hero_powers', to: 'hero_powers#create'
 end
+
