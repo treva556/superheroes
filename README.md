@@ -1,9 +1,9 @@
 # Superheroes Project
-https://trevypizza-nior.onrender.com
+https://trevsuperheroes.onrender.com
 
 - This is a backend api that displays json data when run  and is the data fetched by a front-end app
 -To view the data click the link then navigate to the routes 
-  e.g https://trevypizza-nior.onrender.com/pizzas
+  e.g https://trevsuperheroes.onrender.com/heroes/1
 
 ## Tools Used
 - Rails 7.0.4.3
